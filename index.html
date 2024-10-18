@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introducción</title>
+</head>
+
+<body>
+    <h1>introducción a Java Script</h1>
+
+    <script>
+        alert("Hola mundo");
+        document.write("hola mundo");
+        console.log("hola mundo");
+        //variables en JS//
+        //variable espacio de memoria que esta sujeto a cambios se utilizan solo cuando el programa lo necesita, arrays= espacio de memoria que se subdivide para varios datos// 
+        var nombre = "alexis edison  sharian";
+        alert(nombre);
+        var edad = 16;
+        console.log("El nombre del estudiante es:" + nombre + " Y tiene " + edad + " años")
+        var apellidos = prompt("ingrese el apellido del estudiante");
+        //Tipos de variables
+        //numéricas
+        var edad1 = 39;
+        //String
+        var direccion = "El beaterio"
+        //Arreglo
+        var amigazos = ["Luis", "Dominic", "Mayte", "Rachel", "Francessca", "Anahi", "Ariel"]
+        //Booleano
+        var boleano = false;
+        //Indefinido
+        var ejemplo
+        //Null
+        var numero2 = 10;
+        var numero2 = null
+        //nan
+        var texto2 = "Hola como etas?"
+        console.log(texto2);
+        //arreglos
+        var amigazos2 = ["carlos", "maria", "juan"];
+        console.log(amigazos2[0]);
+        //Efitar un dato del arreglo
+        amigazos2[1] = "dominic"
+        console.log(amigazos2)
+        //Vamos a obtener el tamaño de mi arreglo
+        console.log("Tienes " + amigazos2.length + " amigazos")
+        //vamos a añadir un elemento al finaol e mi arreglo 
+        amigazos2[amigazos2.length] = "diego";
+        console.log(amigazos2);
+        //añadimos varios elementos al arreglo
+        amigazos2.push("david", "alexis", "david");
+        console.log(amigazos2)
+        //eliminar el ultimo dato del arreglo
+        amigazos2.pop();
+        console.log(amigazos2)
+        //concatenar arreglos
+        var amigazos3 = amigazos.concat(amigazos2);
+        console.log(amigazos3);
+        //operadores matematicos
+        /*suma +,
+        resta -,
+        multiplicacion *
+        division /
+        modulo % */
+        var a = 5;
+        var b = 2;
+        var suma = a + b;
+        console.log("la suma de la operacion es", suma);
+        //Edison  math
+        var c = 9;
+        var d = Math.sqrt(c);
+        console.log("La raiz es:" + d)
+        //condicionales
+        //Operadores Logicos
+        //&&AND
+        //|| or
+        if (d > 5) {
+            console.log("El valor es exacto");
+        } else {
+            console.log("El valor es exacto")
+        }
+
+        var a = 5;
+        var b = 3;
+        var c = 6;
+        var positivo = math.sqrt(-b ^ 2 - 4*a*c / 2*a)
+        var negativo = math.sqrt(-b ^ 2 - 4*a*c / 2*a)
+
+        console.log("El resultado es +" + positivo+ "El resultado es -" + negativo)
+
+    </script>
+</body>
+
+</html>
